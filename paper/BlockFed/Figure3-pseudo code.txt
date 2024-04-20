@@ -1,0 +1,23 @@
+\title{AlgorithmTemplate}
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{times}
+\usepackage{fancyhdr,graphicx,amsmath,amssymb}
+\usepackage[ruled,vlined]{algorithm2e}
+\include{pythonlisting}
+\begin{document} 
+\begin{algorithm}[H]
+\SetAlgoLined
+ IPFS\_hash\_list\ = Aggregator.deployed\_contract.read\_previous\_round()\;
+ \For{IPFS in IPFS\_hash\_list}{
+  weights.append(Aggregator.read\_from\_IPFS(IPFS\_hash))\ 
+ }
+averaged\_weights = Aggregator.average(weights)\;
+IPFS\_hash = Aggregator.write\_on\_IPFS(averaged\_weights)\;
+Aggregator.deployed\_contract.update(IPFS\_hash)\;
+ \caption{The tasks performed by each aggregator in each
+learning round.}
+\end{algorithm}
+
+
+\end{document}

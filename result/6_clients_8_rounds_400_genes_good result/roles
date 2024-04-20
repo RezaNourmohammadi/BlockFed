@@ -1,0 +1,37 @@
+round 1 : learners: [3, 4, 5, 6]
+          level_1: [1, 2]
+          level_2: 0
+          
+
+round 2 : learners: [1, 2, 3, 6]
+          level_1: [0, 4]
+          level_2: 5
+          
+
+round 3 : learners: [2, 3, 5, 6]
+          level_1: [1, 4]
+          level_2: 0
+          
+
+round 4 : learners: [1, 4, 5, 6]
+          level_1: [0, 3]
+          level_2: 2
+          
+
+round 5 : learners: [0, 1, 4, 5]
+          level_1: [2, 6]
+          level_2: 3
+          
+
+round 6 : learners: [0, 1, 4, 5]
+          level_1: [2, 6]
+          level_2: 3
+          
+
+round 7 : learners: [0, 2, 4, 5]
+          level_1: [1, 6]
+          level_2: 3
+          
+round 8 : learners: [0, 1, 4, 5]
+          level_1: [2, 6]
+          level_2: 3

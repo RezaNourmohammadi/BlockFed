@@ -1,0 +1,23 @@
+\title{AlgorithmTemplate}
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{times}
+\usepackage{fancyhdr,graphicx,amsmath,amssymb}
+\usepackage[ruled,vlined]{algorithm2e}
+\include{pythonlisting}
+\begin{document} 
+\begin{algorithm}[H]
+\SetAlgoLined
+global\_IPFS\_hash\_pointer = Trainer.deployed\_contract.read\_global\_model()\;
+global\_weights = Trainer.read\_from\_IPFS(global\_IPFS\_hash\_pointer)\;
+Trainer.set(global\_weights)\;
+Trainer.train()\;
+updated\_weights = Trainer.get\_weights()\;
+hash\_pointer = Trainer.write\_on\_IPFS(updated\_weights)\;
+Trainer.deployed\_contract.update(hash\_pointer);
+ \caption{The tasks performed by each learner in each learning
+round.}
+\end{algorithm}
+
+
+\end{document}

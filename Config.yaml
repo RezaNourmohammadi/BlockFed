@@ -1,0 +1,30 @@
+DEFAULT:
+  MainDataPath: "/home/iman/projects/kara/Projects/blockFed_Mycode_v2/Data/swarm_aligned"
+  NumberOfSamplesGenerated: 50
+  MessageBrokerHost: "localhost"
+  InputDimension: 400
+  OutputDimension: 2
+  numClasses: 2
+  numHiddenlayers: 2
+  hiddenLayer1Neurons: 300
+  hiddenLayer2Neurons: 300
+  NumberOfClients: 7
+  numTrainers: 4
+  Epochs : 10
+  LearningRate: 0.1
+  Precision: 1000
+  WaitingTime: 5
+  BatchSize: 10
+  Rounds : 12
+  Gas: 100000000000000
+  EtheriumRPCServer: "http://127.0.0.1:8545"
+  FLContractAddress: "0x032B8B111873Fa09561177ab2a50da6Fc5d54637"
+  FLContractABIPAth: "/home/iman/projects/kara/Projects/blockFed_Mycode_v2/contracts/FLABI.json"
+  IPFSDataPath: "/home/iman/projects/kara/Projects/blockFed_Mycode_v2/IPFS_Data/"
+  IPFSclientID: "/ip4/127.0.0.1/tcp/5001/http"
+  outputPath: "/home/iman/projects/kara/Projects/blockFed_Mycode_v2/result/"
+
+
+
+
+
